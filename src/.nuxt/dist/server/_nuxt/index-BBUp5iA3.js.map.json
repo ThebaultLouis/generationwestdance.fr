@@ -1,1 +1,0 @@
-{"file":"index-BBUp5iA3.js","mappings":";;;;;;;;;;;;;;;;;AACA,KAAA,QAAA,SAAA,IAAAA,iBAAA,MAAM,WAAW,eAAe,EAAE,cAAc,KAAK,CAAA;;;;;;;;;;;","names":["_withAsyncContext"],"sources":["../../../../pages/index.vue"],"sourcesContent":["<script setup lang=\"ts\">\nawait navigateTo('/the-abrams', { redirectCode: 301 })\n</script>\n"],"version":3}
