@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Analyze"
+  short_description: "Turn a requirement into a TPP-ordered TDD plan"
+  default_prompt: "Analyze the requested requirement into a TPP-ordered, FLFI-labeled TDD plan, write docs/tdd.md or docs/tdd-iteration-XX.md, summarize the planned tests, and pause for user confirmation before implementation."

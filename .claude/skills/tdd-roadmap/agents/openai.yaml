@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Roadmap"
+  short_description: "Generate a TDD roadmap from code state and BDD"
+  default_prompt: "Generate or refresh the TDD roadmap for the requested bounded context or plugin, write docs/tdd-roadmap.md, summarize what was found, and pause for user confirmation before any next step."

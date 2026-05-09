@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Roadmap Apply"
+  short_description: "Advance one roadmap item at a time with confirmation"
+  default_prompt: "Read the requested TDD roadmap, select the next pending or partial item in implementation order, present it clearly, hand it to `tdd-analyze`, update roadmap status after successful implementation, and pause before continuing to the next item unless the orchestrator is in explicit bypass mode."

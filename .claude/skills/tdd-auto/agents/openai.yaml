@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Auto"
+  short_description: "Execute an analyzed TDD plan autonomously"
+  default_prompt: "Use the existing TDD analysis artifact as the source of truth, execute autonomous RED-GREEN cycles one test at a time, update plan statuses as tests turn green, and pause at cycle completion for user confirmation."

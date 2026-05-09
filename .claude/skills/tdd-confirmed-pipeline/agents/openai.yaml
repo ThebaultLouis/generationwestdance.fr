@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Confirmed Pipeline"
+  short_description: "Run roadmap-to-auto TDD in confirmed or explicit bypass mode"
+  default_prompt: "Use the tdd-confirmed-pipeline agent for the requested bounded context or plugin. Execution mode: confirmed | bypass. Always follow: tdd-roadmap -> confirm -> tdd-roadmap-apply -> tdd-analyze -> confirm -> tdd-auto. Use docs artifacts as the source of truth, preserve worker pause blocks, and never auto-resume past a pause unless execution mode is bypass."
