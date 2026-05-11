@@ -5,7 +5,7 @@
 
         <div class="tickets-top">
           <span class="eyebrow">Billetterie · 05</span>
-          <h3>Réservez<br/><em>votre soirée.</em></h3>
+          <h3>Réservez<br/><em>votre journée.</em></h3>
         </div>
 
         <div class="tickets-rule"></div>
@@ -91,5 +91,8 @@
 
 @media (max-width: 720px) {
   .tickets-bottom { grid-template-columns: 1fr; gap: 36px; }
+}
+@media (max-width: 480px) {
+  .tickets { padding: 48px clamp(20px, 5vw, 40px); }
 }
 </style>

@@ -265,6 +265,11 @@ section.block { padding: 140px 0; position: relative; }
   .section-head { grid-template-columns: 1fr; gap: 24px; }
   section.block { padding: 96px 0; }
 }
+@media (max-width: 600px) {
+  section.block { padding: 64px 0; }
+  .section-head { margin-bottom: 48px; }
+  .section-head p.lede { font-size: 18px; }
+}
 
 /* =========================================================
    SCROLL REVEAL

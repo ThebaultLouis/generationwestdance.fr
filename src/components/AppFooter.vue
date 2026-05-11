@@ -76,4 +76,5 @@ footer::before {
   color: var(--mute); text-transform: uppercase; flex-wrap: wrap; gap: 16px;
 }
 @media (max-width: 880px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .foot-grid { grid-template-columns: 1fr; } }
 </style>

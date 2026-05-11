@@ -87,4 +87,9 @@
   border-top: 1px solid var(--line);
   width: 100%;
 }
+@media (max-width: 600px) {
+  .emotional { padding: 80px 0; }
+  .imagine-body { font-size: clamp(18px, 5.5vw, 30px); }
+  .emotional-inner { gap: 24px; }
+}
 </style>

@@ -94,4 +94,7 @@ nav.top:not(.scrolled) .nav-cta .btn.primary {
   .navlinks { display: none; }
   .nav-meta { display: none; }
 }
+@media (max-width: 480px) {
+  .brand .lbl { display: none; }
+}
 </style>

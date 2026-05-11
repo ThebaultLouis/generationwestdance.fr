@@ -76,4 +76,8 @@
   .g1, .g6 { grid-column: span 6; }
   .g2, .g3, .g4, .g5 { grid-column: span 3; }
 }
+@media (max-width: 480px) {
+  .gallery { grid-auto-rows: 110px; }
+  .g2, .g3, .g4, .g5 { grid-column: span 6; }
+}
 </style>

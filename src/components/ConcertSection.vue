@@ -102,4 +102,10 @@
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .about-imgs { height: 520px; }
 }
+@media (max-width: 600px) {
+  .about-imgs { height: 320px; }
+  .about-imgs .tag { display: none; }
+  .about-text h3 { font-size: 24px; }
+  .about-stats .n { font-size: 32px; }
+}
 </style>

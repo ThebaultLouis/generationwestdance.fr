@@ -21,7 +21,7 @@
     <div class="wrap hero-grid">
       <div class="hero-eyebrow-row">
         <span class="eyebrow">Génération West Dance · Présente</span>
-        <span class="right">L'Exceptionnel Duo Canadien · The Abrams</span>
+        <span class="right">L'Exceptionnel Duo Canadien</span>
       </div>
 
       <div data-reveal>
@@ -83,7 +83,7 @@ defineEmits<{ 'open-modal': [] }>()
   align-items: end; position: relative; z-index: 3;
 }
 .hero-eyebrow-row {
-  display: flex; justify-content: space-between; align-items: center;
+  display: flex; justify-content: center; align-items: center; gap: 24px;
   margin-bottom: 42px;
   border-top: 1px solid rgba(200,169,107,.2); padding-top: 18px;
   grid-column: 1 / -1;
@@ -93,7 +93,7 @@ defineEmits<{ 'open-modal': [] }>()
   color: rgba(200,169,107,.6); text-transform: uppercase;
 }
 .eyebrow { color: rgba(200,169,107,.7); }
-.eyebrow::before { background: rgba(200,169,107,.7); }
+.eyebrow::before { display: none; }
 
 h1.title {
   font-family: var(--f-display);
@@ -197,5 +197,17 @@ h1.title {
   .hero-meta { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .meta-cell:nth-child(2n) { border-right: 0; }
   .meta-cell:nth-child(-n+2) { border-bottom: 1px solid rgba(200,169,107,.2); }
+}
+@media (max-width: 600px) {
+  .hero { padding-top: 88px; padding-bottom: 40px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 20px; }
+  .hero-eyebrow-row { flex-direction: column; align-items: flex-start; gap: 4px; margin-bottom: 20px; }
+  .hero-eyebrow-row .right { display: none; }
+  .date-stamp { display: none; }
+  .ctas { flex-direction: column; align-items: flex-start; }
+  .hero-band-slot { height: 44vh; }
+  .hero-meta { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 32px; }
+  .meta-cell { padding: 16px 14px; }
+  .meta-cell .v { font-size: 22px; }
 }
 </style>
