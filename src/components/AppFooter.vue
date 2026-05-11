@@ -6,7 +6,7 @@
       <div class="foot-grid">
         <div>
           <h5>Génération West Dance</h5>
-          <p>Association country & western dance · Bretagne. Organisateur de la soirée Concert Live The Abrams 2026.</p>
+          <p>Association country & western dance · Morbihan. Organisateur de la soirée Concert Live The Abrams 2026.</p>
           <p class="site-link">theabramsmusic.com</p>
         </div>
         <div>
@@ -14,7 +14,7 @@
           <a href="https://maps.app.goo.gl/XWJhq49WoYnBWQr37" target="_blank" rel="noopener">Espace Artémisia</a>
           <a href="https://maps.app.goo.gl/XWJhq49WoYnBWQr37" target="_blank" rel="noopener">5 rue des Archers</a>
           <a href="https://maps.app.goo.gl/XWJhq49WoYnBWQr37" target="_blank" rel="noopener">56200 La Gacilly</a>
-          <a href="https://maps.app.goo.gl/XWJhq49WoYnBWQr37" target="_blank" rel="noopener">Bretagne · France</a>
+          <a href="https://maps.app.goo.gl/XWJhq49WoYnBWQr37" target="_blank" rel="noopener">Morbihan · France</a>
         </div>
         <div>
           <h5>Contact</h5>

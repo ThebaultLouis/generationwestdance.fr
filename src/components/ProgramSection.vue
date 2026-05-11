@@ -43,7 +43,7 @@
           <div class="body">
             <h4>Bal Country</h4>
             <div class="sub">Huit heures non-stop · Food truck sur place</div>
-            <p>Scène DJ et danseurs sur le parquet. Le grand bal de la communauté GWD, ouvert à tous, avec restauration américaine et bar.</p>
+            <p>Danseurs sur le parquet. Le grand bal de la communauté GWD, ouvert à tous, avec restauration américaine et bar.</p>
           </div>
         </div>
         <div class="tl-row featured">
@@ -52,7 +52,7 @@
             <span class="badge">Tête d'affiche</span>
             <h4>The Abrams · Concert Live</h4>
             <div class="sub">Quatre-vingt-dix minutes · Set complet · Rappel</div>
-            <p>L'événement de la soirée. Concert en configuration assise/debout, son spatialisé, lumière cinéma. Une seule date française en 2026.</p>
+            <p>L'événement de la soirée. Concert en configuration debout, son spatialisé, lumière cinéma. Une seule date française en 2026.</p>
           </div>
         </div>
       </div>

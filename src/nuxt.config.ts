@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     head: {
       title: 'The Abrams · Concert Unique en France · 17 Octobre 2026',
       meta: [
-        { name: 'description', content: 'GWD Génération West Dance présente The Abrams — Concert unique en France. Samedi 17 Octobre 2026, Espace Artémisia, La Gacilly, Bretagne.' },
+        { name: 'description', content: 'GWD Génération West Dance présente The Abrams — Concert unique en France. Samedi 17 Octobre 2026, Espace Artémisia, La Gacilly, Morbihan.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' },
       ],

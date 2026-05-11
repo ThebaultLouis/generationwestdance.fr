@@ -2,7 +2,7 @@
   <nav class="top" :class="{ scrolled }" id="topnav">
     <div class="row">
       <a href="#top" class="brand" aria-label="Génération West Dance">
-        <span class="mark">G</span>
+        <img src="/logo.png" alt="GWD" class="mark" />
         <span class="lbl">
           Génération West Dance · présente
           <b>The Abrams</b>
@@ -48,16 +48,14 @@ nav.top.scrolled {
   backdrop-filter: blur(14px);
   border-bottom-color: var(--line);
 }
-nav.top:not(.scrolled) .brand .mark { border-color: #5A3F1A; color: #3A2812; }
-nav.top:not(.scrolled) .brand .mark::after { border-color: rgba(90,63,26,.4); }
-nav.top:not(.scrolled) .brand .lbl { color: #4B3A22; }
-nav.top:not(.scrolled) .brand .lbl b { color: #2A1F11; }
-nav.top:not(.scrolled) .navlinks a { color: #4B3A22; }
-nav.top:not(.scrolled) .navlinks a:hover { color: #2A1F11; }
-nav.top:not(.scrolled) .navlinks a::after { background: #5A3F1A; }
-nav.top:not(.scrolled) .nav-meta { color: #5A3F1A; }
+nav.top:not(.scrolled) .brand .lbl { color: rgba(200,169,107,.7); }
+nav.top:not(.scrolled) .brand .lbl b { color: #C8A96B; }
+nav.top:not(.scrolled) .navlinks a { color: rgba(200,169,107,.7); }
+nav.top:not(.scrolled) .navlinks a:hover { color: #C8A96B; }
+nav.top:not(.scrolled) .navlinks a::after { background: #C8A96B; }
+nav.top:not(.scrolled) .nav-meta { color: rgba(200,169,107,.65); }
 nav.top:not(.scrolled) .nav-cta .btn.primary {
-  background: #3A2812; color: #F2E6CA; border-color: #3A2812;
+  background: #C8A96B; color: #0a0a0a; border-color: #C8A96B;
 }
 .row {
   display: flex; align-items: center; justify-content: space-between;
@@ -65,11 +63,8 @@ nav.top:not(.scrolled) .nav-cta .btn.primary {
 }
 .brand { display: flex; align-items: center; gap: 14px; }
 .brand .mark {
-  width: 38px; height: 38px; border: 1px solid var(--gold); position: relative;
-  display: grid; place-items: center;
-  font-family: var(--f-display); font-size: 18px; color: var(--gold);
+  width: 38px; height: 38px; object-fit: contain; display: block;
 }
-.brand .mark::after { content: ""; position: absolute; inset: 3px; border: 1px solid rgba(200,169,107,.35); }
 .brand .lbl {
   font-family: var(--f-mono); font-size: 10px; letter-spacing: .3em;
   text-transform: uppercase; color: var(--ivory-d);

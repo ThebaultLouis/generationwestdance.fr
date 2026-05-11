@@ -21,7 +21,7 @@
     <div class="wrap hero-grid">
       <div class="hero-eyebrow-row">
         <span class="eyebrow">Génération West Dance · Présente</span>
-        <span class="right">L'Exceptionnel Duo Canadien — Concert Unique en France</span>
+        <span class="right">L'Exceptionnel Duo Canadien · The Abrams</span>
       </div>
 
       <div data-reveal>
@@ -53,7 +53,7 @@
         </div>
         <div class="meta-cell">
           <div class="k">Lieu</div>
-          <div class="v">La Gacilly<small>Espace Artémisia · Bretagne</small></div>
+          <div class="v">La Gacilly<small>Espace Artémisia · Morbihan</small></div>
         </div>
         <div class="meta-cell">
           <div class="k">Format</div>
@@ -85,93 +85,96 @@ defineEmits<{ 'open-modal': [] }>()
 .hero-eyebrow-row {
   display: flex; justify-content: space-between; align-items: center;
   margin-bottom: 42px;
-  border-top: 1px solid rgba(90,63,26,.35); padding-top: 18px;
+  border-top: 1px solid rgba(200,169,107,.2); padding-top: 18px;
   grid-column: 1 / -1;
 }
 .hero-eyebrow-row .right {
   font-family: var(--f-mono); font-size: 11px; letter-spacing: .28em;
-  color: #6B4A1F; text-transform: uppercase;
+  color: rgba(200,169,107,.6); text-transform: uppercase;
 }
-.eyebrow { color: #5A3F1A; }
-.eyebrow::before { background: #5A3F1A; }
+.eyebrow { color: rgba(200,169,107,.7); }
+.eyebrow::before { background: rgba(200,169,107,.7); }
 
 h1.title {
   font-family: var(--f-display);
   font-size: clamp(80px, 16vw, 248px);
   line-height: .82; letter-spacing: -.005em; margin: 0;
-  text-shadow: 0 20px 60px rgba(120,80,30,.25);
-  background: linear-gradient(180deg, #3A2812 0%, #6B4A1F 50%, #2A1B0A 100%);
+  text-shadow: 0 20px 60px rgba(200,169,107,.15);
+  background: linear-gradient(180deg, #E8C88A 0%, #C8A96B 50%, #A07840 100%);
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 .strap {
   font-family: var(--f-serif); font-style: italic;
   font-size: clamp(22px, 2.2vw, 30px);
-  color: #6B4A1F; margin-top: 18px; max-width: 560px; font-weight: 400;
+  color: #C8A96B; margin-top: 18px; max-width: 560px; font-weight: 400;
 }
 .gold-label {
   font-style: normal; font-family: var(--f-display);
-  letter-spacing: .04em; font-size: .9em; color: #5A3F1A;
+  letter-spacing: .04em; font-size: .9em; color: #E8C88A;
 }
 
 .ctas { display: flex; gap: 14px; margin-top: 36px; flex-wrap: wrap; }
-.btn { color: #6B4A1F; --b: #5A3F1A; }
-.btn:hover { color: #F2E6CA; }
-.btn::before { background: #3A2812; }
-.btn.primary { background: #3A2812; color: #F2E6CA; border-color: #3A2812; }
-.btn.primary::before { background: #F2E6CA; }
-.btn.primary:hover { color: #3A2812; }
+.btn { color: #C8A96B; --b: rgba(200,169,107,.5); }
+.btn:hover { color: #0a0a0a; }
+.btn::before { background: #C8A96B; }
+.btn.primary { background: #C8A96B; color: #0a0a0a; border-color: #C8A96B; }
+.btn.primary::before { background: #0a0a0a; }
+.btn.primary:hover { color: #C8A96B; }
 
 .date-stamp {
-  border: 1px solid #5A3F1A; padding: 18px 24px 22px; text-align: center;
-  background: linear-gradient(180deg, rgba(255,255,255,.25), rgba(255,255,255,.05));
+  border: 1px solid rgba(200,169,107,.3); padding: 18px 24px 22px; text-align: center;
+  background: linear-gradient(180deg, rgba(200,169,107,.06), rgba(200,169,107,.02));
   backdrop-filter: blur(2px); min-width: 140px;
 }
-.date-stamp .d { font-family: var(--f-display); font-size: 64px; line-height: 1; color: #3A2812; letter-spacing: .02em; }
-.date-stamp .m { font-family: var(--f-display); font-size: 22px; letter-spacing: .3em; color: #6B4A1F; margin-top: 2px; }
+.date-stamp .d { font-family: var(--f-display); font-size: 64px; line-height: 1; color: #E8C88A; letter-spacing: .02em; }
+.date-stamp .m { font-family: var(--f-display); font-size: 22px; letter-spacing: .3em; color: #C8A96B; margin-top: 2px; }
 .date-stamp .y {
-  font-family: var(--f-mono); font-size: 11px; letter-spacing: .28em; color: #6B4A1F;
-  margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(90,63,26,.35);
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: .28em; color: rgba(200,169,107,.65);
+  margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(200,169,107,.2);
 }
-.date-stamp .h { font-family: var(--f-display); font-size: 28px; color: #5A3F1A; margin-top: 6px; letter-spacing: .06em; }
+.date-stamp .h { font-family: var(--f-display); font-size: 28px; color: #C8A96B; margin-top: 6px; letter-spacing: .06em; }
 
 .hero-meta {
   grid-column: 1 / -1;
   display: grid; grid-template-columns: repeat(4, minmax(0,1fr));
-  gap: 0; margin-top: 64px; border-top: 1px solid rgba(90,63,26,.35);
+  gap: 0; margin-top: 64px; border-top: 1px solid rgba(200,169,107,.2);
 }
-.meta-cell { padding: 24px 28px; border-right: 1px solid rgba(90,63,26,.35); }
+.meta-cell { padding: 24px 28px; border-right: 1px solid rgba(200,169,107,.2); }
 .meta-cell:last-child { border-right: 0; }
 .meta-cell .k {
   font-family: var(--f-mono); font-size: 10px; letter-spacing: .32em;
-  text-transform: uppercase; color: #5A3F1A; margin-bottom: 10px;
+  text-transform: uppercase; color: rgba(200,169,107,.55); margin-bottom: 10px;
 }
 .meta-cell .v {
   font-family: var(--f-display); font-size: 30px; letter-spacing: .04em;
-  color: #6B4A1F; line-height: 1.05;
+  color: #C8A96B; line-height: 1.05;
 }
 .meta-cell .v small {
   display: block; font-family: var(--f-serif); font-size: 13px;
-  color: #5A3F1A; letter-spacing: .04em; margin-top: 6px;
+  color: rgba(200,169,107,.65); letter-spacing: .04em; margin-top: 6px;
   font-style: italic; text-transform: none; font-weight: 400;
 }
 
 .hero-band-slot {
   position: absolute; right: 6%; top: 18%; width: 46%; max-width: 720px; height: 62vh; z-index: 2;
-  border: 1px solid rgba(90,63,26,.35);
-  box-shadow: 0 60px 120px rgba(0,0,0,.7), inset 0 0 0 1px rgba(0,0,0,.3);
+  box-shadow: 0 60px 120px rgba(0,0,0,.7);
   overflow: hidden;
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, black 2%, black 98%, transparent),
+    linear-gradient(to bottom, transparent, black 2%, black 96%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, black 2%, black 98%, transparent),
+    linear-gradient(to bottom, transparent, black 2%, black 96%, transparent);
+  mask-composite: intersect;
 }
 .hero-band-slot::after {
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background:
-    linear-gradient(180deg, transparent 50%, rgba(40,28,12,.35) 100%),
-    radial-gradient(60% 40% at 50% 0%, transparent, rgba(40,28,12,.15));
+    linear-gradient(180deg, transparent 50%, rgba(10,10,10,.5) 100%),
+    radial-gradient(60% 40% at 50% 0%, transparent, rgba(10,10,10,.2));
 }
-.corner { position: absolute; width: 18px; height: 18px; border: 1px solid #5A3F1A; }
-.c1 { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
-.c2 { top: -1px; right: -1px; border-left: 0; border-bottom: 0; }
-.c3 { bottom: -1px; left: -1px; border-right: 0; border-top: 0; }
-.c4 { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+.corner { display: none; }
 
 .band-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
 
@@ -179,13 +182,13 @@ h1.title {
   position: absolute; left: var(--pad); bottom: 24px; z-index: 5;
   display: flex; align-items: center; gap: 14px;
   font-family: var(--f-mono); font-size: 10px; letter-spacing: .32em;
-  text-transform: uppercase; color: #5A3F1A;
+  text-transform: uppercase; color: rgba(200,169,107,.55);
 }
 .scroll-cue .line {
-  width: 46px; height: 1px; background: #5A3F1A; position: relative; overflow: hidden;
+  width: 46px; height: 1px; background: rgba(200,169,107,.4); position: relative; overflow: hidden;
 }
 .scroll-cue .line::after {
-  content: ""; position: absolute; inset: 0; background: #F2E6CA;
+  content: ""; position: absolute; inset: 0; background: #C8A96B;
   animation: cue 2.4s ease-in-out infinite;
 }
 
@@ -193,6 +196,6 @@ h1.title {
   .hero-band-slot { position: relative; width: 100%; height: 50vh; right: auto; top: auto; margin-top: 40px; }
   .hero-meta { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .meta-cell:nth-child(2n) { border-right: 0; }
-  .meta-cell:nth-child(-n+2) { border-bottom: 1px solid rgba(90,63,26,.35); }
+  .meta-cell:nth-child(-n+2) { border-bottom: 1px solid rgba(200,169,107,.2); }
 }
 </style>
