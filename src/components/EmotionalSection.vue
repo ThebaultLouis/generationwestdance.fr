@@ -12,11 +12,9 @@
         <blockquote class="imagine">
           <p class="imagine-line">Imaginez…</p>
           <p class="imagine-body">
-            Les bottes qui frappent le parquet.<br/>
-            Les lumières qui montent.<br/>
-            L'ambiance country qui prend vie toute la journée.<br/>
-            <span class="gold-accent">Puis les premières notes des Abrams</span><br/>
-            dans une salle plongée dans l'énergie du live…
+            Les bottes des Cowboys et Cowgirls qui frappent le parquet.<br/>
+            L'ambiance qui monte au fil de la journée.<br/>
+            <span class="gold-accent">En soirée les premières notes des Abrams.</span>
           </p>
         </blockquote>
         <p class="emotional-coda">

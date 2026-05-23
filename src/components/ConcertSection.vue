@@ -18,10 +18,10 @@
           <span class="eyebrow">Le Concert · 01</span>
         </div>
         <div>
-          <h2>Deux frères,<br/>cinq musiciens. <em>Une scène.</em></h2>
+          <h2>Un duo Canadien d'exception<br/><em>qui maîtrise la musique country.</em></h2>
           <p class="lede">
-            Deux frères entourés de trois musiciens, un son qui traverse l'Atlantique. Des artistes canadiens dont l'écriture
-            marie l'âme du country traditionnel à la rigueur du folk contemporain, pour une seule date française.
+            Un duo Canadien d'exception qui maîtrise la musique country traditionnelle et la musique country pop contemporaine.
+            Des artistes dont l'écriture marie l'âme du country de la musique country pop moderne à la rigueur de la musique country traditionnelle.
           </p>
         </div>
       </div>

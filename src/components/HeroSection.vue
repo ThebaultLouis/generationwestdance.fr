@@ -27,9 +27,7 @@
       <div data-reveal>
         <h1 class="title">The<br/>Abrams</h1>
         <p class="strap">
-          Une journée. Un duo canadien d'exception.
-          <span class="gold-label">Le Nashville moderne</span>
-          sur la scène de l'Espace Artémisia.
+          Un duo Canadien d'exception qui maîtrise la musique country traditionnelle et la musique country pop contemporaine.
         </p>
         <div class="ctas">
           <a class="btn primary" href="https://www.helloasso.com/associations/generation-west-dance/evenements/the-abrams" target="_blank" rel="noopener">
@@ -61,7 +59,7 @@
         </div>
         <div class="meta-cell">
           <div class="k">Origine</div>
-          <div class="v">Canada<small>Ontario · Nashville sound</small></div>
+          <div class="v">Canada<small>Province de l'Ontario</small></div>
         </div>
       </div>
     </div>

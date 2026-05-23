@@ -16,7 +16,7 @@
           <h2>Une journée<br/><em>en deux temps.</em></h2>
           <p class="lede">
             Workshop, bal country, food truck, et pour clore la soirée, le concert événement.
-            Chaque moment pensé pour la communauté country française.
+            Chaque moment pensé pour la country française.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@
           <div class="body">
             <h4>Workshop · Séverine Fillion &amp; Chrystel Durand</h4>
             <div class="sub">Deux heures · Tous niveaux</div>
-            <p>Atelier de danse country en ligne par deux figures reconnues de la scène française. Inscription incluse dans le pass journée.</p>
+            <p>Atelier de danse country en ligne par deux chorégraphes reconnues de la scène française. Inscription incluse dans le pass journée.</p>
           </div>
         </div>
         <div class="tl-row">
@@ -43,7 +43,7 @@
           <div class="body">
             <h4>Bal Country</h4>
             <div class="sub">Huit heures non-stop · Food truck sur place</div>
-            <p>Danseurs sur le parquet. Le grand bal de la communauté GWD, ouvert à tous, avec restauration américaine et bar.</p>
+            <p>Danseurs sur le parquet. Le grand bal de GWD, ouvert à tous, avec restauration et bar.</p>
           </div>
         </div>
         <div class="tl-row featured">

@@ -4,11 +4,7 @@
       <div class="section-head" data-reveal>
         <div><span class="eyebrow">L'Expérience · 03</span></div>
         <div>
-          <h2>Plus qu'un concert.<br/><em>Une journée country.</em></h2>
-          <p class="lede">
-            Une atmosphère pensée comme une vraie nuit Nashville. Communauté, danse, bonne cuisine,
-            et l'émotion d'un live unique, du matin jusqu'à minuit passé.
-          </p>
+          <h2>Une journée<br/><em>dédiée à la country.</em></h2>
         </div>
       </div>
 
@@ -24,7 +20,7 @@
         <div class="exp">
           <div class="num">02</div>
           <h4>Bal<em>country</em></h4>
-          <p>Huit heures de danse en ligne et partner work, animées par les références de la scène GWD. Parquet, ambiance club.</p>
+          <p>8 heures de danses en ligne, en couples, workshop animé par Séverine Fillion et Chrystel Durand.</p>
           <div class="ic">
             <svg viewBox="0 0 24 24"><path d="M5 20l4-12 3 6 3-4 4 10"/><circle cx="9" cy="6" r="2"/></svg>
           </div>
@@ -40,7 +36,7 @@
         <div class="exp">
           <div class="num">04</div>
           <h4>Une<em>communauté</em></h4>
-          <p>Trois cents danseurs, des familles, des passionnés venus de toute la Morbihan. La grande nuit annuelle de Génération West Dance.</p>
+          <p>La grande journée annuelle de Génération West Dance. Réservez votre journée 🤠</p>
           <div class="ic">
             <svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20a6 6 0 0112 0M14 20a5 5 0 018 0"/></svg>
           </div>

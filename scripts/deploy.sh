@@ -2,8 +2,9 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ENV_FILE="$SCRIPT_DIR/.env.deploy"
-BUILD_DIR="$SCRIPT_DIR/src/.output/public"
+ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+ENV_FILE="$ROOT_DIR/.env.deploy"
+BUILD_DIR="$ROOT_DIR/src/.output/public"
 
 # Load credentials
 if [[ ! -f "$ENV_FILE" ]]; then
@@ -22,7 +23,7 @@ fi
 
 # Build static site
 echo "==> Building static site..."
-(cd "$SCRIPT_DIR/src" && npm run generate)
+(cd "$ROOT_DIR/src" && npm run generate)
 
 if [[ ! -d "$BUILD_DIR" ]]; then
   echo "Error: build output not found at $BUILD_DIR" >&2
