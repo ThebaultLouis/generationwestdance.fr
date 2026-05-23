@@ -23,7 +23,7 @@ fi
 
 # Build static site
 echo "==> Building static site..."
-(cd "$ROOT_DIR/src" && npm run generate)
+(cd "$ROOT_DIR/src" && rm -rf .output && npm run generate)
 
 if [[ ! -d "$BUILD_DIR" ]]; then
   echo "Error: build output not found at $BUILD_DIR" >&2
